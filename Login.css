@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(145deg, #2d0b4e,#1e90ff );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 40px;
+  width: 320px;
+  box-shadow: 0 8px 32px 0 r(31, 38, 135, 0.37);
+  color: white;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  background-image: url('jannel.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(255,255,255,0.1);
+  color: white;
+  font-size: 14px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.options a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #2d0b4e, #1e90ff);
+  color: white;
+  border: none;
+  border-radius: 60px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 5pxcyan, 0 0 25px blueviolet;
+}
+
+button:hover {
+  background: linear-gradient(to right, #1e90ff, );
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;;
+  
+}
